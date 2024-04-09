@@ -1,13 +1,12 @@
 # Configuration
 
 ## Requirements
- 
+
 - PHP >= 8.1
 
 ## Register ConfigProvider
 
 Next, register the package's `ConfigProvider` to your application config.
-
 
 ```php
 Dot\ResponseHeader\ConfigProvider::class,
