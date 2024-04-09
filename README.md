@@ -18,6 +18,7 @@ Middleware for setting and overwriting custom response headers.
 
 
 ### Requirements
+
 - PHP >= 8.1
 
 ### Installation
@@ -78,6 +79,7 @@ All headers under ``*`` will be set for every response.
 To add response headers for a specific set of routes, define a new array using the route name as the array key.
 
 Example : 
+
 ```
 'dot_response_headers' => [
     'user' => [

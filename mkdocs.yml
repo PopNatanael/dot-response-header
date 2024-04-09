@@ -1,0 +1,19 @@
+docs_dir: docs/book
+site_dir: docs/html
+extra:
+  project: Packages
+  current_version: v3
+  versions:
+    - v3
+nav:
+  - Home: index.md
+  - v3:
+      - Overview: v5/overview.md
+      - Installation: v5/installation.md
+      - Usage: v5/usage.md
+      - Factories: v5/factories.md
+site_name: dot-response-header
+site_description: "DotKernel's middleware for setting and overwriting custom response headers."
+repo_url: "https://github.com/dotkernel/dot-response-header"
+plugins:
+  - search
