@@ -31,12 +31,12 @@ Next, register the package's `ConfigProvider` to your application config.
 
 Note : Make sure to register the package under the `// DK packages` section.
 
-After registering the package, add it to the middleware stack in ``config/pipeline.php`` after `$app->pipe(RouteMiddleware::class);`
+After registering the package, add it to the middleware stack in `config/pipeline.php` after `$app->pipe(RouteMiddleware::class);`
 
     $app->pipe(RouteMiddleware::class);
     $app->pipe(\Dot\ResponseHeader\Middleware\ResponseHeaderMiddleware::class);
 
-Create a new file ``response-header.global.php`` in ``config/autoload`` with the below configuration array :
+Create a new file `response-header.global.php` in `config/autoload` with the below configuration array :
 
     <?php
     return [
@@ -65,9 +65,9 @@ Create a new file ``response-header.global.php`` in ``config/autoload`` with the
         ]
     ]; 
 
-Because headers are matched with route names, we can have custom response headers for every request, by defining new headers under the ``*`` key.
+Because headers are matched with route names, we can have custom response headers for every request, by defining new headers under the `*` key.
 
-All headers under ``*`` will be set for every response.
+All headers under `*` will be set for every response.
 
 To add response headers for a specific set of routes, define a new array using the route name as the array key.
 
@@ -84,4 +84,4 @@ Example :
     
     // This will set a new header named UserCustomHeader with the UserCustomHeader-Value value for any route name matching 'user'
 
-To overwrite an existing header use ``overwrite => true``.
+To overwrite an existing header use `overwrite => true`.
