@@ -6,6 +6,9 @@
 | Version | Supported          | PHP Version                                                                                                         |
 |---------|--------------------|---------------------------------------------------------------------------------------------------------------------|
 | 3.x     | :white_check_mark: | ![PHP from Packagist (specify version)](https://img.shields.io/packagist/php-v/dotkernel/dot-response-header/3.2.3) |
+| <= 2.x  | :x:                |                                                                                                                     |
+
+
 
 
 ## Reporting Potential Security Issues
