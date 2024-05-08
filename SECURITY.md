@@ -24,7 +24,7 @@ When reporting issues, please provide the following information:
 - A summary of the security vulnerability and impact
 
 We request that you contact us via the email address above and give the
-project contributors a chance to resolve the vulnerability and issue a new
+project contributors a chance to resolve the vulnerability and issue a newc
 release prior to any public exposure; this helps protect the project's
 users, and provides them with a chance to upgrade and/or update in order to
 protect their applications.
